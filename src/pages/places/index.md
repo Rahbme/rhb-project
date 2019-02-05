@@ -200,5 +200,29 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/Zm2NcWssSCo'
+  - EnName: Brand Coffee
+    name: براند كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/pbsErmhppZv'
+  - EnName: Rawashn
+    name: رواشن
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/x9LK5nrvWdK2'
+  - EnName: Diamond Cafe
+    name: قهوة الماسة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/cdZhruUMQHk'
+  - name: كو شي نا
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/nvufvzxVLTz'
+  - EnName: Versai
+    name: فرساي
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/MFHEkPbed9T2'
 ---
 
