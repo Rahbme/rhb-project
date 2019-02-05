@@ -103,7 +103,7 @@ class Places extends React.Component {
           if (searchedItem) {
             list = places.filter(
               ({ name, EnName }) =>
-                name.replace(/[اأإآ]/g, 'ا').includes(searchedItem.trim().replace(/[اأإآ]/g, 'ا')) || EnName.toLowerCase().includes(searchedItem.toLowerCase().trim())
+            (name && name.replace(/[اأإآ]/g, 'ا').includes(searchedItem.trim().replace(/[اأإآ]/g, 'ا')) )|| (EnName && EnName.toLowerCase().includes(searchedItem.toLowerCase().trim()))
             );
             if (list.length === 0) list = "لم يتم العثور على ماتبحث عنه";
           } else if (category === "cafes")
