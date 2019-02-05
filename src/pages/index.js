@@ -25,7 +25,7 @@ class Layout extends React.Component {
       <>
         <Normalize />
         <GlobalStyles />
-        <Metatags title="رحب " description="وجهات نقية و راقية لطلعات الأهل و الأصحاب" />
+        <Metatags title="رحب " description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)" />
         <Container>
           <Header ChangeSearch={this.ChangeSearch} isInputFilled={this.state.search} />
           <MainContent searchedItem={this.state.search} />

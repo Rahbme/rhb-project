@@ -6,5 +6,10 @@ places:
     tags:
       - مطعم
     url: تجربة
+  - EnName: hungry 
+    name: الأرنب الجائع
+    tags:
+      - مطعم
+    url: تجربة
 ---
 

@@ -20,7 +20,6 @@ const Container = styled.div`
 const GroupButtons = styled.div`
   display: flex;
   margin-bottom: 36px;
-  margin-left: 0.5rem;
   justify-content: center;
 
   & > button {
@@ -104,7 +103,7 @@ class Places extends React.Component {
           if (searchedItem) {
             list = places.filter(
               ({ name, EnName }) =>
-                name.includes(searchedItem.trim()) || EnName.toLowerCase().includes(searchedItem.toLowerCase().trim())
+                name.replace(/[اأإآ]/g, 'ا').includes(searchedItem.trim().replace(/[اأإآ]/g, 'ا')) || EnName.toLowerCase().includes(searchedItem.toLowerCase().trim())
             );
             if (list.length === 0) list = "لم يتم العثور على ماتبحث عنه";
           } else if (category === "cafes")
