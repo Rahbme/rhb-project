@@ -4,8 +4,8 @@ backend:
 
 media_folder: static/img
 public_folder: /img
-display_url: https://www.rahb.app
-logo_url: https://www.rahb.app/images/logo.png
+display_url: https://www.rahb.me
+logo_url: https://www.rahb.me/images/logo.png
 
 collections:
   - name: "pages"
