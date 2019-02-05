@@ -59,6 +59,14 @@ module.exports = {
         showSpinner: false
       }
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-133823459-1`,
+        head: false,
+        anonymize: true
+      }
+    },
     `gatsby-plugin-catch-links`,
     "gatsby-plugin-styled-components",
     "gatsby-plugin-sitemap",
