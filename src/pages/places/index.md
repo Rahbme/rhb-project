@@ -250,10 +250,30 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/P175pchued62'
-  - {}
-  - {}
-  - {}
-  - {}
-  - {}
+  - EnName: Cafune
+    name: كافونيه
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/uGCnAhf3mwB2'
+  - EnName: The mansion
+    name: ذا مانشن
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Gkkyo2pX1VF2'
+  - EnName: Tea club
+    name: 'نادي الشاي '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/Fu1grdKg2Q32'
+  - EnName: Mom's flavour
+    name: 'مذاق أمي '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/BWEhkwxXL762'
+  - EnName: Ekleel Resturant
+    name: اكليل لبنان
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/w7Fam215Cd42'
 ---
 
