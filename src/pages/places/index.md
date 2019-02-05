@@ -5,7 +5,7 @@ places:
     name: أوف وايت لاونج
     tags:
       - مطعم
-    url: تجربة
+    url: 'https://goo.gl/maps/RB4K1Rgtva12'
   - EnName: Armin
     name: أرمين
     tags:
@@ -196,7 +196,8 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/CXgbmKiCbio'
-  - name: لي شاتو
+  - EnName: Le Chateau
+    name: لي شاتو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/Zm2NcWssSCo'
@@ -224,5 +225,80 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/MFHEkPbed9T2'
+  - EnName: Bellissimo
+    name: بيليسيمو‭
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/8XfVKdXrVNA2'
+  - EnName: Bayat Cafe
+    name: 'قهوة بيات '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ssxpKYQBXAQ2'
+  - EnName: Oval
+    name: أوڤال
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/cEnGDKRSDmT2'
+  - EnName: White garden
+    name: 'وايت قاردن '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ZZTiSd3H6EK2'
+  - EnName: Cafe blanc
+    name: بلان
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/P175pchued62'
+  - EnName: Cafune
+    name: كافونيه
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/uGCnAhf3mwB2'
+  - EnName: The mansion
+    name: ذا مانشن
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Gkkyo2pX1VF2'
+  - EnName: Tea club
+    name: 'نادي الشاي '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/Fu1grdKg2Q32'
+  - EnName: Mom's flavour
+    name: 'مذاق أمي '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/BWEhkwxXL762'
+  - EnName: Ekleel Resturant
+    name: اكليل لبنان
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/w7Fam215Cd42'
+  - EnName: Maison mathis
+    name: ميزون ماتيس
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Wi43HzCmk5T2'
+  - EnName: Cake me out
+    name: كيك مي آوت
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/zi2G5GSomvj'
+  - EnName: Recipe cafe
+    name: ريسيبي كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/nLioE7tL39L2'
+  - EnName: Muunnis
+    name: مونيز
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/qResSpAKTTo'
+  - EnName: Operation Falafel
+    name: 'اوبريشن فلافل '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
 ---
 
