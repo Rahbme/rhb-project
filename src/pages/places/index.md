@@ -5,7 +5,7 @@ places:
     name: أوف وايت لاونج
     tags:
       - مطعم
-    url: تجربة
+    url: 'https://goo.gl/maps/RB4K1Rgtva12'
   - EnName: Armin
     name: أرمين
     tags:
@@ -196,7 +196,8 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/CXgbmKiCbio'
-  - name: لي شاتو
+  - EnName: Le Chateau
+    name: لي شاتو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/Zm2NcWssSCo'
@@ -224,5 +225,35 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/MFHEkPbed9T2'
+  - EnName: Bellissimo
+    name: بيليسيمو‭
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/8XfVKdXrVNA2'
+  - EnName: Bayat Cafe
+    name: 'قهوة بيات '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ssxpKYQBXAQ2'
+  - EnName: Oval
+    name: أوڤال
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/cEnGDKRSDmT2'
+  - EnName: White garden
+    name: 'وايت قاردن '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ZZTiSd3H6EK2'
+  - EnName: Cafe blanc
+    name: بلان
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/P175pchued62'
+  - {}
+  - {}
+  - {}
+  - {}
+  - {}
 ---
 
