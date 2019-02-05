@@ -73,7 +73,7 @@ export const ItemButton = styled(StyledButton)`
   padding-right: 10px;
   span {
     display: block;
-    margin-top: 3px;
+    margin-top: 5px;
   }
 `;
 

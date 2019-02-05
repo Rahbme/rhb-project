@@ -5,6 +5,8 @@ import styled from "styled-components";
 import Button, { ItemButton } from "../components/Button";
 import forksAndKnifeAndPlate from "../images/icons/forksAndKnifeAndPlate.png";
 import cafe from "../images/icons/cafe.png";
+import InfiniteScroll from "react-infinite-scroller";
+
 const Container = styled.div`
   position: relative;
   ul {
@@ -42,7 +44,7 @@ const GroupButtons = styled.div`
     }
   }
 `;
-export const PlacesComponent = ({ list, ChangeCategory, category }) => (
+export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownList, ShowMoreItem, hasMoreItems }) => (
   <Container>
     <GroupButtons>
       <Button onClick={() => ChangeCategory("resturants")} category={category === "resturants"} isIcon="true">
@@ -56,16 +58,26 @@ export const PlacesComponent = ({ list, ChangeCategory, category }) => (
     </GroupButtons>
     {Array.isArray(list) ? (
       <ul>
-        {list.map(({ name, EnName, url }) => (
-          <a key={url} href={url}>
-            <li>
-              <ItemButton as="div" width="93%" height="73px" BorderRadius="10px">
-                {name}
-                <span>{EnName}</span>
-              </ItemButton>
-            </li>
-          </a>
-        ))}
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={() => ShowMoreItem(list)}
+          hasMore={hasMoreItems}
+          loader={AmountOfShownList !== 0 && <p key={0}>المزيد ...</p>}
+        >
+          {list
+            .slice(0, AmountOfShownList)
+            .sort(() => Math.random() - 0.5)
+            .map(({ name, EnName, url }) => (
+              <a key={url} href={url}>
+                <li>
+                  <ItemButton as="div" width="93%" height="73px" BorderRadius="10px">
+                    {name}
+                    {EnName && <span>( {EnName} )</span>}
+                  </ItemButton>
+                </li>
+              </a>
+            ))}
+        </InfiniteScroll>
       </ul>
     ) : (
       <p>{list}</p>
@@ -75,9 +87,23 @@ export const PlacesComponent = ({ list, ChangeCategory, category }) => (
 
 class Places extends React.Component {
   state = {
-    category: ""
+    category: "",
+    AmountOfShownList: 0,
+    hasMoreItems: true
   };
-  ChangeCategory = cate => this.setState({ category: cate });
+  ChangeCategory = cate => this.setState({ category: cate, AmountOfShownList: 0, hasMoreItems: true });
+  ShowMoreItem = list => {
+    if (this.state.AmountOfShownList >= list.length) {
+      this.setState({ hasMoreItems: false });
+      return;
+    }
+    let LoadingTime = this.state.AmountOfShownList === 0 ? 0 : 300;
+    setTimeout(() => {
+      this.setState({ AmountOfShownList: this.state.AmountOfShownList + 20 }, () =>
+        console.log(this.state.AmountOfShownList)
+      );
+    }, LoadingTime);
+  };
   render() {
     return (
       <StaticQuery
@@ -98,12 +124,13 @@ class Places extends React.Component {
         render={data => {
           let searchedItem = this.props.searchedItem;
           const { places } = data.markdownRemark.frontmatter;
-          const { category } = this.state;
+          const { category, AmountOfShownList, hasMoreItems } = this.state;
           let list = "";
           if (searchedItem) {
             list = places.filter(
               ({ name, EnName }) =>
-            (name && name.replace(/[اأإآ]/g, 'ا').includes(searchedItem.trim().replace(/[اأإآ]/g, 'ا')) )|| (EnName && EnName.toLowerCase().includes(searchedItem.toLowerCase().trim()))
+                (name && name.replace(/[اأإآ]/g, "ا").includes(searchedItem.trim().replace(/[اأإآ]/g, "ا"))) ||
+                (EnName && EnName.toLowerCase().includes(searchedItem.toLowerCase().trim()))
             );
             if (list.length === 0) list = "لم يتم العثور على ماتبحث عنه";
           } else if (category === "cafes")
@@ -116,6 +143,9 @@ class Places extends React.Component {
               searchedItem={searchedItem}
               category={category}
               list={list}
+              hasMoreItems={hasMoreItems}
+              ShowMoreItem={this.ShowMoreItem}
+              AmountOfShownList={AmountOfShownList}
               ChangeCategory={this.ChangeCategory}
             />
           );
