@@ -275,5 +275,30 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/w7Fam215Cd42'
+  - EnName: Maison mathis
+    name: ميزون ماتيس
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Wi43HzCmk5T2'
+  - EnName: Cake me out
+    name: كيك مي آوت
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/zi2G5GSomvj'
+  - EnName: Recipe cafe
+    name: ريسيبي كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/nLioE7tL39L2'
+  - EnName: Muunnis
+    name: مونيز
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/qResSpAKTTo'
+  - EnName: Operation Falafel
+    name: 'اوبريشن فلافل '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
 ---
 
