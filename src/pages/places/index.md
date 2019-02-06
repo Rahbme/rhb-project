@@ -35,27 +35,62 @@ places:
     name: 'برج الحمام بيسترو '
     tags:
       - مطعم
-    url: 'https://goo.gl/maps/cRRubXQ3YGk'
+    url: 'https://www.google.com/maps/search/Burj+Al+Hamam'
   - EnName: Azkadenya
     name: أزكدنيا
     tags:
       - مطعم
     url: 'https://goo.gl/maps/NLnzGrZ2LfG2'
+  - EnName: Kosibasi
+    name: كوشي باشي
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Kosibasi'
   - EnName: Zafran
     name: زافران
     tags:
       - مطعم
     url: 'https://goo.gl/maps/xikXzCxiULo'
+  - EnName: Chopper Chandni
+    name: كوبر شندني
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/كوبر+شندني'
+  - EnName: Piatto
+    name: بياتو
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Piatto'
   - EnName: Avocado
     name: أفوكادو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/cqBmBs1MQoQ2'
+  - EnName: Friday's
+    name: فرايديز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Friday''s'
+  - EnName: Chili's
+    name: تشيليز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Chili''s'
+  - EnName: Applebee's
+    name: أبل بيز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Applebee''s'
   - EnName: Avindar
     name: أفندار
     tags:
       - كافيه
     url: 'https://goo.gl/maps/CDuP5QeiQ9A2'
+  - EnName: 'Cioccolat Italiani '
+    name: تشوكلت إيتالياني
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Cioccolat+Italiani'
   - EnName: Today's Coffee
     name: قهوة اليوم
     tags:
@@ -86,6 +121,16 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/pKRVkHiT57C2'
+  - EnName: Hello my coffee
+    name: مرحبا قهوتي
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Hello+my+coffee'
+  - EnName: Java time
+    name: جافا تايم
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Java+time'
   - EnName: Chocolate Saray
     name: شوكليت سراي
     tags:
@@ -101,6 +146,11 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/RaR9mc1sedH2'
+  - EnName: Address Cafe
+    name: عنوان القهوة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/3sF7NPqEWtP2'
   - EnName: Sarajivo cafe
     name: سراييفو كافيه
     tags:
@@ -146,6 +196,11 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/vp2ntmD6ysq'
+  - EnName: Outback Steakhouse
+    name: أوت باك ستيك هاوس
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Outback+Steakhouse'
   - EnName: Spectra Cafe
     name: أطياف الكيف
     tags:
@@ -156,16 +211,36 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/tmkWb2R4xNA2'
+  - EnName: Garden
+    name: الحديقة
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/مطعم+الحديقة'
+  - EnName: Taji
+    name: تاجي الهندي
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/تاجي+الهندي'
   - EnName: Belo
     name: بيلو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/gugTfVpemas'
+  - EnName: karam cafe
+    name: كرم كافيه
+    tags:
+      - مطعم وكافيه
+    url: 'https://www.google.com/maps/search/karam+cafe'
   - EnName: Dakat aziz
     name: دكة عزيز
     tags:
       - كافيه
     url: 'https://goo.gl/maps/8uWfzppF4ZU2'
+  - EnName: indian summer
+    name: 'الصيف الهندي '
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/indian+summer'
   - EnName: thompson specialty coffee
     name: تومسون للقهوة المختصة
     tags:
@@ -176,6 +251,16 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/gHhLzYvq7Hn'
+  - EnName: Simit susam
+    name: 'سميت سوزام '
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Simit+susam'
+  - EnName: Wayne's coffee
+    name: واينز كوفي
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Wayne''s+coffee'
   - EnName: Indian island
     name: جزيرة الهند
     tags:
@@ -216,7 +301,8 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/cdZhruUMQHk'
-  - name: كو شي نا
+  - EnName: Ko shi na
+    name: كو شي نا
     tags:
       - مطعم
     url: 'https://goo.gl/maps/nvufvzxVLTz'
@@ -234,7 +320,12 @@ places:
     name: 'قهوة بيات '
     tags:
       - كافيه
-    url: 'https://goo.gl/maps/ssxpKYQBXAQ2'
+    url: 'https://goo.gl/maps/KKmXKCHN2vQ2'
+  - EnName: Caribou Coffee
+    name: كاريبو
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Caribou+Coffee'
   - EnName: Oval
     name: أوڤال
     tags:
@@ -290,15 +381,155 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/nLioE7tL39L2'
+  - EnName: La cour
+    name: لاكور
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/K43JDCs3jks'
+  - EnName: Alqalzam
+    name: القلزم
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Alqalzam'
   - EnName: Muunnis
     name: مونيز
     tags:
       - مطعم
     url: 'https://goo.gl/maps/qResSpAKTTo'
+  - EnName: Bteel
+    name: بتيل
+    tags:
+      - مطعم وكافيه
+    url: 'https://www.google.com/maps/search/Bateel'
   - EnName: Operation Falafel
     name: 'اوبريشن فلافل '
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
+  - EnName: Dip lab cafe
+    name: ديب لاب كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/FCFmWEnQRRR2'
+  - EnName: ChesseCake Royale
+    name: 'رويال تشيز كيك لاونج '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/8Eq12JSRCKM2'
+  - EnName: Dip n Dip
+    name: ديب إن ديب
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Dip+n+Dip'
+  - EnName: Barbbera
+    name: ' باربيرا كافيه'
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ABnZPcSwDy22'
+  - EnName: 'Reuok&karak '
+    name: ريوق وكرك
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/73DjhRE1swH2'
+  - EnName: Nino
+    name: نينو
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/nino'
+  - EnName: Burger Boutique
+    name: برجر بوتيك
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Y8Z7bJbap9v'
+  - EnName: Grades cafe
+    name: قريدز كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/z4SuoWki4y42'
+  - EnName: Girls cafe
+    name: قهوة بناتي
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/hveTk9ti6xK2'
+  - EnName: Indian style
+    name: إنديان ستايل
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/R6YpCsTwQyJ2'
+  - EnName: 'November Coffee '
+    name: 'نوفمبر كوفي '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/CyHGKpgvqEn'
+  - EnName: Mothhelah
+    name: مذهلة كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/eXTV9kFgZpS2'
+  - EnName: Rasam coffee
+    name: قهوة رسم
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/DGfWLtSSL3G2'
+  - EnName: Gram coffee
+    name: جرام للقهوة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/PwkLMUhuUyR2'
+  - EnName: filter roastery
+    name: فلتر للقهوة المختصة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/hXU39WyGWNC2'
+  - EnName: O'clock
+    name: أوكلوك
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/zahQs6nR3V22'
+  - EnName: Bean Cherry
+    name: كرزة البن
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Bean+Cherry'
+  - EnName: Lavorio
+    name: لافوريو
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/AVvZnsFJXQx'
+  - EnName: Coffee Tale
+    name: كوفي تيل
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/SfsXS7WeNJJ2'
+  - EnName: Piquant Pick
+    name: بيكينت بيك
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/nvaSU7vU4C32'
+  - EnName: Alshazelih
+    name: بن الشاذلية
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/qJ7prW5CYW52'
+  - EnName: Forchetta
+    name: فوركيتا
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Forchetta'
+  - EnName: Arena
+    name: أرينا
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/jzi3kyTMNLQ2'
+  - EnName: Lavash
+    name: لاڤاش
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/w2KBaLCHgz92'
+  - EnName: ilfournaretto
+    name: إلفورناريتو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/tdrnNqRjnkQ2'
 ---
 
