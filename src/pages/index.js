@@ -5,7 +5,7 @@ import MainContent from "../components/MainContent";
 import GlobalStyles from "../components/GlobalStyles";
 import { Normalize } from "styled-normalize";
 import Metatags from "../components/Metatags";
-
+import logo from '../images/logo.png'
 const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr;
@@ -25,7 +25,9 @@ class Layout extends React.Component {
       <>
         <Normalize />
         <GlobalStyles />
-        <Metatags title="رحب " description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)" />
+        <Metatags title="رحب " description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"  
+           thumbnail={logo }
+                url="https://www.rahb.me" />
         <Container>
           <Header ChangeSearch={this.ChangeSearch} isInputFilled={this.state.search} />
           <MainContent searchedItem={this.state.search} />

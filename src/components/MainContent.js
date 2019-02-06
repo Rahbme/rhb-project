@@ -5,23 +5,23 @@ import googleMap from "../images/icons/googleMap.png";
 const Container = styled.div`
   grid-area: content;
   margin: 5px;
-  span {
-    font-size: 0.8rem;
-    color: #a8abad;
-  }
+
   img {
     width: 0.7rem;
   }
 `;
-
+const MainContent = styled.span`
+  font-size: 0.8rem;
+  color: #a8abad;
+`;
 const IndexPage = ({ searchedItem }) => (
   <Container>
     <div css={"margin: 32px auto;"}>
-      <span>
+      <MainContent>
         حالياً في الرياض، انقر على اسم المكان لتتجه مباشرة <br /> إلى التفاصيل في ” خرائط جوجل
-      </span>
+      </MainContent>
       {"  "} <img src={googleMap} alt="خرائط قوقل" /> {"  "}
-      <span> “ </span>
+      <MainContent> “ </MainContent>
     </div>
     <Places searchedItem={searchedItem} />
   </Container>

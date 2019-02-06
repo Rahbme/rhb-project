@@ -74,6 +74,7 @@ export const ItemButton = styled(StyledButton)`
   span {
     display: block;
     margin-top: 5px;
+    font-size: 0.7rem;
   }
 `;
 
