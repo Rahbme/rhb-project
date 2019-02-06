@@ -450,5 +450,30 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/hveTk9ti6xK2'
+  - EnName: Indian style
+    name: إنديان ستايل
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/R6YpCsTwQyJ2'
+  - EnName: 'November Coffee '
+    name: 'نوفمبر كوفي '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/CyHGKpgvqEn'
+  - EnName: Mothhelah
+    name: مذهلة كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/eXTV9kFgZpS2'
+  - EnName: Rasam coffee
+    name: قهوة رسم
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/DGfWLtSSL3G2'
+  - EnName: Gram coffee
+    name: جرام للقهوة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/PwkLMUhuUyR2'
 ---
 
