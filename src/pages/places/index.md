@@ -305,5 +305,29 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
+  - EnName: Piatto
+    name: بياتو
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Piatto'
+  - EnName: Chopper Chandni
+    name: كوبر شندني
+    tags:
+      - مطعم
+  - EnName: Friday's
+    name: فرايديز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Friday''s'
+  - EnName: Chili's
+    name: تشيليز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Chili''s'
+  - EnName: Applebee's
+    name: أبل بيز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Applebee''s'
 ---
 
