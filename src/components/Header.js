@@ -27,11 +27,12 @@ class Header extends React.Component {
         </span>
         <StyledInputDiv>
           <input
+            value={this.props.searchedItem}
             placeholder="تأكد من ملاءمة وجهتك ..."
             onChange={this.props.ChangeSearch}
             onKeyPress={event => event.key === "Enter" && event.target.blur()}
           />
-          {!this.props.isInputFilled && <img src={search} css={"width:1.1rem"} alt="بحث" />}
+          {!this.props.searchedItem && <img src={search} css={"width:1.1rem"} alt="بحث" />}
         </StyledInputDiv>
         <SuggestUs />
         <img src={mensAndWomns} css={"width:8rem; transform: translateY(5rem);"} alt="الرجال و النساء" />

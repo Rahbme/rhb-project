@@ -5,7 +5,6 @@ import googleMap from "../images/icons/googleMap.png";
 const Container = styled.div`
   grid-area: content;
   margin: 5px;
-
   img {
     width: 0.7rem;
   }
@@ -14,7 +13,7 @@ const MainContent = styled.span`
   font-size: 0.8rem;
   color: #a8abad;
 `;
-const IndexPage = ({ searchedItem }) => (
+const IndexPage = ({ searchedItem, ChangeSearch }) => (
   <Container>
     <div css={"margin: 32px auto;"}>
       <MainContent>
@@ -23,7 +22,7 @@ const IndexPage = ({ searchedItem }) => (
       {"  "} <img src={googleMap} alt="خرائط قوقل" /> {"  "}
       <MainContent> “ </MainContent>
     </div>
-    <Places searchedItem={searchedItem} />
+    <Places searchedItem={searchedItem} ChangeSearch={ChangeSearch} />
   </Container>
 );
 

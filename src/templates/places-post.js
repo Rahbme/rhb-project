@@ -97,8 +97,10 @@ class Places extends React.Component {
     hasMoreItems: true,
     randomNumber: Math.random()
   };
-  ChangeCategory = cate =>
+  ChangeCategory = cate => {
+    this.props.ChangeSearch();
     this.setState({ category: cate, AmountOfShownList: 0, hasMoreItems: true, randomNumber: Math.random() });
+  };
 
   shuffleArray = ([...arr]) => {
     let m = arr.length;
@@ -139,9 +141,9 @@ class Places extends React.Component {
           }
         `}
         render={data => {
-          let searchedItem = this.props.searchedItem;
+          let { searchedItem } = this.props;
           const { places } = data.markdownRemark.frontmatter;
-          const { category, AmountOfShownList, hasMoreItems, randomNumber } = this.state;
+          const { category, AmountOfShownList, hasMoreItems } = this.state;
           let list = "";
           if (searchedItem) {
             list = places.filter(

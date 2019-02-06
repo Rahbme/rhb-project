@@ -5,7 +5,7 @@ import MainContent from "../components/MainContent";
 import GlobalStyles from "../components/GlobalStyles";
 import { Normalize } from "styled-normalize";
 import Metatags from "../components/Metatags";
-import logo from '../images/logo.png'
+import logo from "../images/logo.png";
 const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr;
@@ -19,18 +19,23 @@ const Container = styled.div`
 
 class Layout extends React.Component {
   state = { search: "" };
-  ChangeSearch = e => this.setState({ search: e.target.value });
+  ChangeSearch = e => {
+    this.setState({ search: (e && e.target.value) || "" });
+  };
   render() {
     return (
       <>
         <Normalize />
         <GlobalStyles />
-        <Metatags title="رحب " description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"  
-           thumbnail={logo }
-                url="https://www.rahb.me" />
+        <Metatags
+          title="رحب "
+          description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"
+          thumbnail={logo}
+          url="https://www.rahb.me"
+        />
         <Container>
-          <Header ChangeSearch={this.ChangeSearch} isInputFilled={this.state.search} />
-          <MainContent searchedItem={this.state.search} />
+          <Header ChangeSearch={this.ChangeSearch} searchedItem={this.state.search} />
+          <MainContent searchedItem={this.state.search} ChangeSearch={this.ChangeSearch} />
         </Container>
       </>
     );

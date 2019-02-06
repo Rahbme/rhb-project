@@ -90,8 +90,11 @@ const StyledForm = styled.form`
 `;
 
 const MsgSent = styled.p`
-  color: brown;
-  transform: translateY(4rem);
+  font-size: 0.8rem;
+  position: absolute;
+  z-index: 1000;
+  padding-top: 37%;
+  margin-left: 11%;
 `;
 
 export default GoogleFormTemplate;
