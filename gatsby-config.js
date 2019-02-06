@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "رحب",
-    siteUrl: "https://www.rahb.app"
+    siteUrl: "https://www.rahb.me"
   },
   plugins: [
     "gatsby-plugin-react-helmet",

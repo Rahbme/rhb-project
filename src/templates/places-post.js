@@ -154,13 +154,12 @@ class Places extends React.Component {
             list = places.filter(({ tags }) => tags.find(tag => tag === "كافيه" || tag === "مطعم وكافيه"));
           else if (category === "resturants")
             list = places.filter(({ tags }) => tags.find(tag => tag === "مطعم وكافيه" || tag === "مطعم"));
-          console.log("AmountOfShownList = " + AmountOfShownList);
-          console.log(this.state.randomNumber);
+
           return (
             <PlacesComponent
               searchedItem={searchedItem}
               category={category}
-              list={list && this.shuffleArray(list)}
+              list={Array.isArray(list) ? this.shuffleArray(list) : list}
               hasMoreItems={hasMoreItems}
               ShowMoreItem={this.ShowMoreItem}
               AmountOfShownList={AmountOfShownList}
