@@ -251,6 +251,16 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/gHhLzYvq7Hn'
+  - EnName: Simit susam
+    name: 'سميت سوزام '
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Simit+susam'
+  - EnName: Wayne's coffee
+    name: واينز كوفي
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Wayne''s+coffee'
   - EnName: Indian island
     name: جزيرة الهند
     tags:
@@ -375,6 +385,9 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
+  - {}
+  - {}
+  - {}
   - {}
 ---
 
