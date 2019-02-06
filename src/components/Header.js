@@ -98,7 +98,7 @@ const StyledInputDiv = styled.div`
 
     &::placeholder {
       text-align: center;
-      transform: translateX(0.65rem);
+      transform: translateX(0.92rem);
       height: 100%;
     }
     &:focus::-webkit-input-placeholder {
@@ -112,9 +112,9 @@ const StyledInputDiv = styled.div`
   }
   img {
     position: absolute;
-    width: 1.4rem;
+    width: 0.8rem;
     transform: translateX(13rem);
-    margin-top: 8px;
+    margin-top: 0.8rem;
   }
 `;
 

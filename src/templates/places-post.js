@@ -77,7 +77,7 @@ export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownL
               <a href={url}>
                 <ItemButton width="93%" height="73px" BorderRadius="10px">
                   {name && name}
-                  {EnName && <span>( {EnName} )</span>}
+                  {EnName && <span>({EnName})</span>}
                 </ItemButton>
               </a>
             </li>
