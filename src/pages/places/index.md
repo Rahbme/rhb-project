@@ -380,26 +380,59 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/nLioE7tL39L2'
-  - EnName: Muunnis
-    name: مونيز
+  - EnName: La cour
+    name: لاكور
     tags:
       - مطعم
-    url: 'https://goo.gl/maps/qResSpAKTTo'
-  - EnName: Operation Falafel
-    name: 'اوبريشن فلافل '
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
+    url: 'https://goo.gl/maps/K43JDCs3jks'
   - EnName: Alqalzam
     name: القلزم
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Alqalzam'
+  - EnName: Muunnis
+    name: مونيز
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/qResSpAKTTo'
   - EnName: Bteel
     name: بتيل
     tags:
       - مطعم وكافيه
     url: 'https://www.google.com/maps/search/Bateel'
+  - EnName: Operation Falafel
+    name: 'اوبريشن فلافل '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
+  - EnName: Dip lab cafe
+    name: ديب لاب كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/FCFmWEnQRRR2'
+  - EnName: ChesseCake Royale
+    name: 'رويال تشيز كيك لاونج '
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/8Eq12JSRCKM2'
+  - EnName: Dip n Dip
+    name: ديب إن ديب
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Dip+n+Dip'
+  - EnName: Barbbera
+    name: ' باربيرا كافيه'
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/ABnZPcSwDy22'
+  - EnName: 'Reuok&karak '
+    name: ريوق وكرك
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/73DjhRE1swH2'
+  - {}
+  - {}
+  - {}
   - {}
 ---
 
