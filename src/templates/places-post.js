@@ -47,11 +47,19 @@ const GroupButtons = styled.div`
 export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownList, ShowMoreItem, hasMoreItems }) => (
   <Container>
     <GroupButtons>
-      <Button onClick={() => ChangeCategory("resturants")} category={category === "resturants"} isIcon="true">
+      <Button
+        onClick={() => category !== "resturants" && ChangeCategory("resturants")}
+        category={category === "resturants"}
+        isIcon="true"
+      >
         <img src={forksAndKnifeAndPlate} alt="مطاعم" />
         مطاعم
       </Button>
-      <Button onClick={() => ChangeCategory("cafes")} category={category === "cafes"} isIcon="true">
+      <Button
+        onClick={() => category !== "cafes" && ChangeCategory("cafes")}
+        category={category === "cafes"}
+        isIcon="true"
+      >
         <img src={cafe} alt="كافيهات" />
         كافيهات
       </Button>
@@ -68,14 +76,14 @@ export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownL
             .slice(0, AmountOfShownList)
             .sort(() => Math.random() - 0.5)
             .map(({ name, EnName, url }) => (
-              <a key={url} href={url}>
-                <li>
-                  <ItemButton as="div" width="93%" height="73px" BorderRadius="10px">
+              <li key={url}>
+                <a href={url}>
+                  <ItemButton width="93%" height="73px" BorderRadius="10px">
                     {name}
                     {EnName && <span>( {EnName} )</span>}
                   </ItemButton>
-                </li>
-              </a>
+                </a>
+              </li>
             ))}
         </InfiniteScroll>
       </ul>
@@ -97,10 +105,13 @@ class Places extends React.Component {
       this.setState({ hasMoreItems: false });
       return;
     }
-    let LoadingTime = this.state.AmountOfShownList === 0 ? 0 : 300;
+    let LoadingTime = this.state.AmountOfShownList === 0 ? 0 : 500;
     setTimeout(() => {
-      this.setState({ AmountOfShownList: this.state.AmountOfShownList + 20 }, () =>
-        console.log(this.state.AmountOfShownList)
+      this.setState(
+        prevState => {
+          return { AmountOfShownList: prevState.AmountOfShownList + 20 };
+        },
+        () => console.log(this.state.AmountOfShownList)
       );
     }, LoadingTime);
   };
