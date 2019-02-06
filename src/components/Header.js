@@ -31,6 +31,7 @@ class Header extends React.Component {
             placeholder="تأكد من ملاءمة وجهتك ..."
             onChange={this.props.ChangeSearch}
             onKeyPress={event => event.key === "Enter" && event.target.blur()}
+            onFocus={() => this.props.ChangeCategory("")}
           />
           {!this.props.searchedItem && <img src={search} css={"width:1.1rem"} alt="بحث" />}
         </StyledInputDiv>

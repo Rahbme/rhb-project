@@ -9,20 +9,40 @@ const Container = styled.div`
     width: 0.7rem;
   }
 `;
-const MainContent = styled.span`
+const Text = styled.span`
   font-size: 0.8rem;
   color: #a8abad;
 `;
-const IndexPage = ({ searchedItem, ChangeSearch }) => (
+const IndexPage = ({
+  searchedItem,
+  ChangeSearch,
+  AmountOfShownList,
+  category,
+  ChangeCategory,
+  hasMoreItems,
+  randomNumber,
+  ShowMoreItem,
+  shuffleArray
+}) => (
   <Container>
     <div css={"margin: 32px auto;"}>
-      <MainContent>
+      <Text>
         حالياً في الرياض، انقر على اسم المكان لتتجه مباشرة <br /> إلى التفاصيل في ” خرائط جوجل
-      </MainContent>
+      </Text>
       {"  "} <img src={googleMap} alt="خرائط قوقل" /> {"  "}
-      <MainContent> “ </MainContent>
+      <Text> “ </Text>
     </div>
-    <Places searchedItem={searchedItem} ChangeSearch={ChangeSearch} />
+    <Places
+      searchedItem={searchedItem}
+      ChangeSearch={ChangeSearch}
+      AmountOfShownList={AmountOfShownList}
+      category={category}
+      ChangeCategory={ChangeCategory}
+      hasMoreItems={hasMoreItems}
+      randomNumber={randomNumber}
+      ShowMoreItem={ShowMoreItem}
+      shuffleArray={shuffleArray}
+    />
   </Container>
 );
 

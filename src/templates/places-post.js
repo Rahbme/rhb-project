@@ -91,38 +91,6 @@ export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownL
 );
 
 class Places extends React.Component {
-  state = {
-    category: "",
-    AmountOfShownList: 0,
-    hasMoreItems: true,
-    randomNumber: Math.random()
-  };
-  ChangeCategory = cate => {
-    this.props.ChangeSearch();
-    this.setState({ category: cate, AmountOfShownList: 0, hasMoreItems: true, randomNumber: Math.random() });
-  };
-
-  shuffleArray = ([...arr]) => {
-    let m = arr.length;
-    while (m) {
-      const i = Math.floor(this.state.randomNumber * m--);
-      [arr[m], arr[i]] = [arr[i], arr[m]];
-    }
-    return arr;
-  };
-
-  ShowMoreItem = list => {
-    if (this.state.AmountOfShownList >= list.length) {
-      this.setState({ hasMoreItems: false });
-      return;
-    }
-    let LoadingTime = this.state.AmountOfShownList === 0 ? 0 : 500;
-    setTimeout(() => {
-      this.setState(prevState => {
-        return { AmountOfShownList: prevState.AmountOfShownList + 20 };
-      });
-    }, LoadingTime);
-  };
   render() {
     return (
       <StaticQuery
@@ -141,9 +109,16 @@ class Places extends React.Component {
           }
         `}
         render={data => {
-          let { searchedItem } = this.props;
           const { places } = data.markdownRemark.frontmatter;
-          const { category, AmountOfShownList, hasMoreItems } = this.state;
+          const {
+            AmountOfShownList,
+            category,
+            hasMoreItems,
+            searchedItem,
+            ChangeCategory,
+            ShowMoreItem,
+            shuffleArray
+          } = this.props;
           let list = "";
           if (searchedItem) {
             list = places.filter(
@@ -161,11 +136,11 @@ class Places extends React.Component {
             <PlacesComponent
               searchedItem={searchedItem}
               category={category}
-              list={Array.isArray(list) ? this.shuffleArray(list) : list}
+              list={Array.isArray(list) ? shuffleArray(list) : list}
               hasMoreItems={hasMoreItems}
-              ShowMoreItem={this.ShowMoreItem}
+              ShowMoreItem={ShowMoreItem}
               AmountOfShownList={AmountOfShownList}
-              ChangeCategory={this.ChangeCategory}
+              ChangeCategory={ChangeCategory}
             />
           );
         }}

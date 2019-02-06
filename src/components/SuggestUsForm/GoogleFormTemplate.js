@@ -3,6 +3,8 @@ import styled from "styled-components";
 import Button from "../Button";
 import Modal from "./Modal";
 import suggest from "../../images/icons/suggest.png";
+import party from "../../images/icons/party.png";
+import heart from "../../images/icons/heart.png";
 const GoogleFormTemplate = ({
   FormRedirect,
   FormRedirectState,
@@ -16,7 +18,14 @@ const GoogleFormTemplate = ({
     <>
       {FormRedirect && <iframe name="hidden_iframe" id="hidden_iframe" title="frame" style={{ display: "none" }} />}
       <Modal>
-        {FormRedirect && <MsgSent>{FinalSentMsg}</MsgSent>}
+        {FormRedirect && (
+          <MsgSent>
+            <p>
+              {FinalSentMsg}
+              <img src={party} alt="heart" /> <img src={heart} alt="" />
+            </p>
+          </MsgSent>
+        )}
         <StyledForm
           action={FormActionUrl}
           method="post"
@@ -89,12 +98,17 @@ const StyledForm = styled.form`
   }
 `;
 
-const MsgSent = styled.p`
-  font-size: 0.8rem;
+const MsgSent = styled.div`
   position: absolute;
   z-index: 1000;
   padding-top: 37%;
   margin-left: 11%;
+  img {
+    width: 0.9rem;
+  }
+  p {
+    font-size: 0.8rem;
+  }
 `;
 
 export default GoogleFormTemplate;
