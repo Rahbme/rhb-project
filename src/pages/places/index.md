@@ -320,6 +320,11 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/ssxpKYQBXAQ2'
+  - EnName: Caribou Coffee
+    name: كاريبو
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Caribou+Coffee'
   - EnName: Oval
     name: أوڤال
     tags:
@@ -385,9 +390,16 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
-  - {}
-  - {}
-  - {}
+  - EnName: Alqalzam
+    name: القلزم
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Alqalzam'
+  - EnName: Bteel
+    name: بتيل
+    tags:
+      - مطعم وكافيه
+    url: 'https://www.google.com/maps/search/Bateel'
   - {}
 ---
 
