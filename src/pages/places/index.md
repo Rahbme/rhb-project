@@ -475,5 +475,55 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/PwkLMUhuUyR2'
+  - EnName: filter roastery
+    name: فلتر للقهوة المختصة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/hXU39WyGWNC2'
+  - EnName: O'clock
+    name: أوكلوك
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/zahQs6nR3V22'
+  - EnName: Bean Cherry
+    name: كرزة البن
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Bean+Cherry'
+  - EnName: Lavorio
+    name: لافوريو
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/AVvZnsFJXQx'
+  - EnName: Coffee Tale
+    name: كوفي تيل
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/SfsXS7WeNJJ2'
+  - EnName: Piquant Pick
+    name: بيكينت بيك
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/6bmVJQMRo912'
+  - EnName: Alshazelih
+    name: بن الشاذلية
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/qJ7prW5CYW52'
+  - EnName: Forchetta
+    name: فوركيتا
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Forchetta'
+  - EnName: Arena
+    name: أرينا
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/jzi3kyTMNLQ2'
+  - EnName: Lavash
+    name: لاڤاش
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/w2KBaLCHgz92'
 ---
 
