@@ -116,11 +116,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/WMtGjaDEtgy'
-  - EnName: Al Zaatar Albarry
-    name: الزعتر البري
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/CzLr66yQbAP2'
   - EnName: Mshagith
     name: مشاغيث
     tags:
@@ -141,11 +136,21 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/PWD6U7MF9D92'
+  - EnName: Al Zaatar Albarry
+    name: الزعتر البري
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/CzLr66yQbAP2'
   - EnName: ' Roast Cuisine'
     name: روست كوزين
     tags:
       - مطعم
     url: 'https://goo.gl/maps/RaR9mc1sedH2'
+  - EnName: Address Cafe
+    name: عنوان القهوة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/3sF7NPqEWtP2'
   - EnName: Sarajivo cafe
     name: سراييفو كافيه
     tags:
@@ -191,6 +196,11 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/vp2ntmD6ysq'
+  - EnName: Outback Steakhouse
+    name: أوت باك ستيك هاوس
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Outback+Steakhouse'
   - EnName: Spectra Cafe
     name: أطياف الكيف
     tags:
@@ -201,16 +211,36 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/tmkWb2R4xNA2'
+  - EnName: Garden
+    name: الحديقة
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/مطعم+الحديقة'
+  - EnName: Taji
+    name: تاجي الهندي
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/تاجي+الهندي'
   - EnName: Belo
     name: بيلو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/gugTfVpemas'
+  - EnName: karam cafe
+    name: كرم كافيه
+    tags:
+      - مطعم وكافيه
+    url: 'https://www.google.com/maps/search/karam+cafe'
   - EnName: Dakat aziz
     name: دكة عزيز
     tags:
       - كافيه
     url: 'https://goo.gl/maps/8uWfzppF4ZU2'
+  - EnName: indian summer
+    name: 'الصيف الهندي '
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/indian+summer'
   - EnName: thompson specialty coffee
     name: تومسون للقهوة المختصة
     tags:
@@ -345,11 +375,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
-  - EnName: Address Cafe
-    name: عنوان القهوة
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/3sF7NPqEWtP2'
   - {}
 ---
 
