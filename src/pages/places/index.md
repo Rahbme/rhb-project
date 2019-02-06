@@ -301,7 +301,8 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/cdZhruUMQHk'
-  - name: كو شي نا
+  - EnName: Ko shi na
+    name: كو شي نا
     tags:
       - مطعم
     url: 'https://goo.gl/maps/nvufvzxVLTz'
@@ -504,7 +505,7 @@ places:
     name: بيكينت بيك
     tags:
       - مطعم
-    url: 'https://goo.gl/maps/6bmVJQMRo912'
+    url: 'https://goo.gl/maps/nvaSU7vU4C32'
   - EnName: Alshazelih
     name: بن الشاذلية
     tags:
