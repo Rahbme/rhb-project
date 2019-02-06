@@ -86,6 +86,11 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/CDuP5QeiQ9A2'
+  - EnName: 'Cioccolat Italiani '
+    name: تشوكلت إيتالياني
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Cioccolat+Italiani'
   - EnName: Today's Coffee
     name: قهوة اليوم
     tags:
@@ -111,21 +116,31 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/WMtGjaDEtgy'
-  - EnName: Mshagith
-    name: مشاغيث
-    tags:
-      - مطعم وكافيه
-    url: 'https://goo.gl/maps/pKRVkHiT57C2'
-  - EnName: Chocolate Saray
-    name: شوكليت سراي
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/PWD6U7MF9D92'
   - EnName: Al Zaatar Albarry
     name: الزعتر البري
     tags:
       - مطعم
     url: 'https://goo.gl/maps/CzLr66yQbAP2'
+  - EnName: Mshagith
+    name: مشاغيث
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/pKRVkHiT57C2'
+  - EnName: Hello my coffee
+    name: مرحبا قهوتي
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Hello+my+coffee'
+  - EnName: Java time
+    name: جافا تايم
+    tags:
+      - كافيه
+    url: 'https://www.google.com/maps/search/Java+time'
+  - EnName: Chocolate Saray
+    name: شوكليت سراي
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/PWD6U7MF9D92'
   - EnName: ' Roast Cuisine'
     name: روست كوزين
     tags:
@@ -330,22 +345,11 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
-  - EnName: 'Cioccolat Italiani '
-    name: تشوكلت إيتالياني
+  - EnName: Address Cafe
+    name: عنوان القهوة
     tags:
       - كافيه
-    url: 'https://www.google.com/maps/search/Cioccolat+Italiani'
-  - EnName: Hello my coffee
-    name: مرحبا قهوتي
-    tags:
-      - كافيه
-    url: 'https://www.google.com/maps/search/Hello+my+coffee'
-  - EnName: Java time
-    name: جافا تايم
-    tags:
-      - كافيه
-    url: 'https://www.google.com/maps/search/Java+time'
-  - {}
+    url: 'https://goo.gl/maps/3sF7NPqEWtP2'
   - {}
 ---
 
