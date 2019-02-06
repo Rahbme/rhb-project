@@ -320,7 +320,7 @@ places:
     name: 'قهوة بيات '
     tags:
       - كافيه
-    url: 'https://goo.gl/maps/ssxpKYQBXAQ2'
+    url: 'https://goo.gl/maps/KKmXKCHN2vQ2'
   - EnName: Caribou Coffee
     name: كاريبو
     tags:
