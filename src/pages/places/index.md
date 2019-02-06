@@ -35,12 +35,17 @@ places:
     name: 'برج الحمام بيسترو '
     tags:
       - مطعم
-    url: 'https://goo.gl/maps/cRRubXQ3YGk'
+    url: 'https://www.google.com/maps/search/Burj+Al+Hamam'
   - EnName: Azkadenya
     name: أزكدنيا
     tags:
       - مطعم
     url: 'https://goo.gl/maps/NLnzGrZ2LfG2'
+  - EnName: Kosibasi
+    name: كوشي باشي
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Kosibasi'
   - EnName: Zafran
     name: زافران
     tags:
