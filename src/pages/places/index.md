@@ -525,5 +525,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/w2KBaLCHgz92'
+  - EnName: ilfournaretto
+    name: إلفورناريتو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/tdrnNqRjnkQ2'
 ---
 
