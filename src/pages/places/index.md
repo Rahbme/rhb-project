@@ -430,9 +430,25 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/73DjhRE1swH2'
-  - {}
-  - {}
-  - {}
-  - {}
+  - EnName: Nino
+    name: نينو
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/nino'
+  - EnName: Burger Boutique
+    name: برجر بوتيك
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/Y8Z7bJbap9v'
+  - EnName: Grades cafe
+    name: قريدز كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/z4SuoWki4y42'
+  - EnName: Girls cafe
+    name: قهوة بناتي
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/hveTk9ti6xK2'
 ---
 
