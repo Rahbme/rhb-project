@@ -51,11 +51,36 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/xikXzCxiULo'
+  - EnName: Chopper Chandni
+    name: كوبر شندني
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/كوبر+شندني'
+  - EnName: Piatto
+    name: بياتو
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Piatto'
   - EnName: Avocado
     name: أفوكادو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/cqBmBs1MQoQ2'
+  - EnName: Friday's
+    name: فرايديز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Friday''s'
+  - EnName: Chili's
+    name: تشيليز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Chili''s'
+  - EnName: Applebee's
+    name: أبل بيز
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/Applebee''s'
   - EnName: Avindar
     name: أفندار
     tags:
@@ -305,29 +330,22 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
-  - EnName: Piatto
-    name: بياتو
+  - EnName: 'Cioccolat Italiani '
+    name: تشوكلت إيتالياني
     tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Piatto'
-  - EnName: Chopper Chandni
-    name: كوبر شندني
+      - كافيه
+    url: 'https://www.google.com/maps/search/Cioccolat+Italiani'
+  - EnName: Hello my coffee
+    name: مرحبا قهوتي
     tags:
-      - مطعم
-  - EnName: Friday's
-    name: فرايديز
+      - كافيه
+    url: 'https://www.google.com/maps/search/Hello+my+coffee'
+  - EnName: Java time
+    name: جافا تايم
     tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Friday''s'
-  - EnName: Chili's
-    name: تشيليز
-    tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Chili''s'
-  - EnName: Applebee's
-    name: أبل بيز
-    tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Applebee''s'
+      - كافيه
+    url: 'https://www.google.com/maps/search/Java+time'
+  - {}
+  - {}
 ---
 
