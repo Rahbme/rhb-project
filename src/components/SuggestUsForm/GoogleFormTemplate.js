@@ -105,6 +105,8 @@ const MsgSent = styled.div`
   margin-left: 11%;
   img {
     width: 0.9rem;
+    margin-right: 4px;
+    transform: translateY(0.2rem);
   }
   p {
     font-size: 0.8rem;
