@@ -55,22 +55,14 @@ class Layout extends React.Component {
   };
 
   render() {
-    const {
-      search,
-      category,
-      AmountOfShownList,
-      hasMoreItems,
-      randomNumber,
-      ChangeCategory,
-      ShowMoreItem
-    } = this.state;
+    const { search, category, AmountOfShownList, hasMoreItems, randomNumber } = this.state;
     return (
       <>
         <Normalize />
         <GlobalStyles />
         <Metatags
-          title="رحب "
-          description="دليل تفاعلي من الناس , للوجـهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"
+          title="رحب"
+          description="دليل تفاعلي من الناس , للوجهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"
           thumbnail={logo}
           url="https://www.rahb.me"
         />

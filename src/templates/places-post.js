@@ -6,7 +6,7 @@ import Button, { ItemButton } from "../components/Button";
 import forksAndKnifeAndPlate from "../images/icons/forksAndKnifeAndPlate.png";
 import cafe from "../images/icons/cafe.png";
 import InfiniteScroll from "react-infinite-scroller";
-
+import Metatags from "../components/Metatags";
 const Container = styled.div`
   position: relative;
   ul {
@@ -110,6 +110,7 @@ class Places extends React.Component {
         `}
         render={data => {
           const { places } = data.markdownRemark.frontmatter;
+
           const {
             AmountOfShownList,
             category,
@@ -133,15 +134,22 @@ class Places extends React.Component {
             list = places.filter(({ tags }) => tags.find(tag => tag === "مطعم وكافيه" || tag === "مطعم"));
 
           return (
-            <PlacesComponent
-              searchedItem={searchedItem}
-              category={category}
-              list={Array.isArray(list) ? shuffleArray(list) : list}
-              hasMoreItems={hasMoreItems}
-              ShowMoreItem={ShowMoreItem}
-              AmountOfShownList={AmountOfShownList}
-              ChangeCategory={ChangeCategory}
-            />
+            <>
+              <Metatags
+                title="رحب"
+                description="دليل تفاعلي من الناس , للوجهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"
+                url="https://www.rahb.me"
+              />
+              <PlacesComponent
+                searchedItem={searchedItem}
+                category={category}
+                list={Array.isArray(list) ? shuffleArray(list) : list}
+                hasMoreItems={hasMoreItems}
+                ShowMoreItem={ShowMoreItem}
+                AmountOfShownList={AmountOfShownList}
+                ChangeCategory={ChangeCategory}
+              />
+            </>
           );
         }}
       />
