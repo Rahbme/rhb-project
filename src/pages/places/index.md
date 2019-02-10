@@ -506,5 +506,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/ML5337LtXGr'
+  - EnName: khaizoran
+    name: خيزران
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/o57QLkfS9JB2'
 ---
 
