@@ -416,11 +416,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/nino'
-  - EnName: Burger Boutique
-    name: برجر بوتيك
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/Y8Z7bJbap9v'
   - EnName: Grades cafe
     name: قريدز كافيه
     tags:
