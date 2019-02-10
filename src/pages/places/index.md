@@ -301,11 +301,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/nvufvzxVLTz'
-  - EnName: Versai
-    name: فرساي
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/MFHEkPbed9T2'
   - EnName: Bellissimo
     name: بيليسيمو‭
     tags:
