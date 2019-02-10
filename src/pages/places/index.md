@@ -46,11 +46,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Kosibasi'
-  - EnName: Zafran
-    name: زافران
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/xikXzCxiULo'
   - EnName: Chopper Chandni
     name: كوبر شندني
     tags:
