@@ -46,11 +46,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Kosibasi'
-  - EnName: Zafran
-    name: زافران
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/xikXzCxiULo'
   - EnName: Chopper Chandni
     name: كوبر شندني
     tags:
@@ -306,11 +301,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/nvufvzxVLTz'
-  - EnName: Versai
-    name: فرساي
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/MFHEkPbed9T2'
   - EnName: Bellissimo
     name: بيليسيمو‭
     tags:
@@ -341,11 +331,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/P175pchued62'
-  - EnName: Cafune
-    name: كافونيه
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/uGCnAhf3mwB2'
   - EnName: The mansion
     name: ذا مانشن
     tags:
@@ -391,16 +376,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Alqalzam'
-  - EnName: Muunnis
-    name: مونيز
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/qResSpAKTTo'
-  - EnName: Bteel
-    name: بتيل
-    tags:
-      - مطعم وكافيه
-    url: 'https://www.google.com/maps/search/Bateel'
   - EnName: Operation Falafel
     name: 'اوبريشن فلافل '
     tags:
@@ -436,11 +411,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/nino'
-  - EnName: Burger Boutique
-    name: برجر بوتيك
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/Y8Z7bJbap9v'
   - EnName: Grades cafe
     name: قريدز كافيه
     tags:
@@ -521,15 +491,50 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/jzi3kyTMNLQ2'
-  - EnName: Lavash
-    name: لاڤاش
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/w2KBaLCHgz92'
   - EnName: ilfournaretto
     name: إلفورناريتو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/tdrnNqRjnkQ2'
+  - EnName: Toledo
+    name: طليطلة
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/ML5337LtXGr'
+  - EnName: khaizoran
+    name: خيزران
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/o57QLkfS9JB2'
+  - EnName: element Specialty Coffee
+    name: إليمينت
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/dghAYmcHjME2'
+  - EnName: Cilicia
+    name: سيليسيا
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/wSkCDAZANg72'
+  - EnName: WAGYU
+    name: واقيو برقر
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/pvd1hw35q6u'
+  - EnName: Early morning
+    name: إيرلي مورنينق
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/P5Q7KcvHp9B2'
+  - EnName: Shakespeare and CO.
+    name: شكسبير آند كو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/GjtdFjLfJJH2'
+  - EnName: Pan Breeza
+    name: بان بريزا
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/VF8KPaucjN32'
 ---
 
