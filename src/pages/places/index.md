@@ -521,5 +521,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/pvd1hw35q6u'
+  - EnName: Early morning
+    name: إيرلي مورنينق
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/P5Q7KcvHp9B2'
 ---
 
