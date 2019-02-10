@@ -506,5 +506,15 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/o57QLkfS9JB2'
+  - EnName: element Specialty Coffee
+    name: إليمينت
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/dghAYmcHjME2'
+  - EnName: Cilicia
+    name: سيليسيا
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/wSkCDAZANg72'
 ---
 
