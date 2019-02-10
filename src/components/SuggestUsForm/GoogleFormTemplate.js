@@ -24,6 +24,20 @@ const GoogleFormTemplate = ({
               {FinalSentMsg}
               <img src={party} alt="heart" /> <img src={heart} alt="" />
             </p>
+
+            <Button
+              type="submit"
+              width="100%"
+              height="2.2rem"
+              BGColor="var(--color-primary)"
+              BorderRadius="50px"
+              FontFamily="Dubai-Light,sans-serif"
+              FontSize="0.8rem"
+              FontWeight="600"
+              onClick={FormRedirectState}
+            >
+              أقترح مكان آخر
+            </Button>
           </MsgSent>
         )}
         <StyledForm
@@ -110,6 +124,7 @@ const MsgSent = styled.div`
   }
   p {
     font-size: 0.8rem;
+    margin-bottom: 45px;
   }
 `;
 

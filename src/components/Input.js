@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-const Input = ({ Forlabel, name, type = "text", required }) => (
+const Input = ({ Forlabel, name, type = "text", required, value, onChange,stateName }) => (
   <>
     {/* {Forlabel && <label htmlFor={Forlabel}>{Forlabel}</label>} */}
-    <StyledInput name={name} type={type} placeholder={Forlabel} required={required} />
+    <StyledInput name={name} value={value} data-state={stateName} onChange={onChange} type={type} placeholder={Forlabel} required={required} />
   </>
 );
 
