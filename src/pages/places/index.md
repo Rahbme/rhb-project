@@ -526,5 +526,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/P5Q7KcvHp9B2'
+  - EnName: Shakespeare and CO.
+    name: شكسبير آند كو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/GjtdFjLfJJH2'
 ---
 
