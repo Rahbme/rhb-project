@@ -516,5 +516,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/wSkCDAZANg72'
+  - EnName: WAGYU
+    name: واقيو برقر
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/pvd1hw35q6u'
 ---
 
