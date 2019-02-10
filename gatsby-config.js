@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "رحب",
+    titleTemplate: "%s ",
     description: "دليل تفاعلي من الناس , للوجهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)",
     siteUrl: "https://www.rahb.me",
     url: "https://www.rahb.me",
