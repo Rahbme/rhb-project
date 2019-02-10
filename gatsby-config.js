@@ -1,10 +1,20 @@
 module.exports = {
   siteMetadata: {
     title: "رحب",
-    siteUrl: "https://www.rahb.me"
+    description: "دليل تفاعلي من الناس , للوجهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)",
+    siteUrl: "https://www.rahb.me",
+    url: "https://www.rahb.me",
+    image: "/images/logo.png",
+    twitterUsername: "@rahbme"
   },
   plugins: [
     "gatsby-plugin-react-helmet",
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://www.rahb.me`
+      }
+    },
     {
       resolve: "gatsby-source-filesystem",
       options: {

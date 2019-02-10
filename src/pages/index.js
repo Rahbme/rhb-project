@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import Header from "../components/Header";
 import MainContent from "../components/MainContent";
+import SEO from "../components/SEO";
 import GlobalStyles from "../components/GlobalStyles";
 import { Normalize } from "styled-normalize";
-import Metatags from "../components/Metatags";
-import logo from "../images/logo.png";
+
 const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr;
@@ -60,12 +60,7 @@ class Layout extends React.Component {
       <>
         <Normalize />
         <GlobalStyles />
-        <Metatags
-          title="رحب"
-          description="دليل تفاعلي من الناس , للوجهات الراقية والنقية لطلعات الأهل والأصحاب ( #بلا_موسيقى)"
-          thumbnail={logo}
-          url="https://www.rahb.me"
-        />
+        <SEO />
         <Container>
           <Header
             ChangeSearch={this.ChangeSearch}

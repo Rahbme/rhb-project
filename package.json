@@ -7,6 +7,7 @@
     "babel-plugin-styled-components": "^1.9.3",
     "gatsby": "^2.0.64",
     "gatsby-image": "^2.0.22",
+    "gatsby-plugin-canonical-urls": "^2.0.10",
     "gatsby-plugin-catch-links": "^2.0.9",
     "gatsby-plugin-gtag": "^1.0.7",
     "gatsby-plugin-manifest": "^2.0.11",
