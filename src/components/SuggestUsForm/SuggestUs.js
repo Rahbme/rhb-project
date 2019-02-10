@@ -11,25 +11,25 @@ export const SuggestCopmonent = ({ FormRedirect, FormRedirectState, inputs, inpu
     FormActionUrl="https://docs.google.com/forms/u/7/d/e/1FAIpQLSe-y3IuVxc6WjTFYHvR5Fw1_lq9U3uEX9rqhrWC0Onnrv8DPQ/formResponse"
   >
     <Input
-      value={inputs.name}
-      stateName="name"
-      onChange={inputOnChange}
+      // value={inputs.name}
+      // stateName="name"
+      // onChange={inputOnChange}
       Forlabel="اسم المكان ( مطعم أو كافيه )"
       name="entry.344522578"
       required={true}
     />
     <Input
-      value={inputs.city}
-      stateName="city"
-      onChange={inputOnChange}
+      // value={inputs.city}
+      // stateName="city"
+      // onChange={inputOnChange}
       Forlabel="المدينة"
       name="entry.2081730193"
       required={true}
     />
     <Input
-      value={inputs.location}
-      stateName="location"
-      onChange={inputOnChange}
+      // value={inputs.location}
+      // stateName="location"
+      // onChange={inputOnChange}
       Forlabel="رابط مشاركة الموقع ( إن وجد )"
       name="entry.290755335"
     />
@@ -45,7 +45,8 @@ class SuggestUs extends Component {
   };
   FormRedirectState = () => this.setState({ FormRedirect: !this.state.FormRedirect, name: "", city: "", location: "" });
 
-  inputOnChange = e => this.setState({ [event.target.getAttribute("data-state")]: e.currentTarget.value });
+  inputOnChange = e =>
+    this.setState({ [event.target.getAttribute("data-state")]: e.currentTarget.value }, () => console.log(this.state));
   render() {
     const { FormRedirect } = this.state;
     const inputs = { FormRedirect, ...this.state };
