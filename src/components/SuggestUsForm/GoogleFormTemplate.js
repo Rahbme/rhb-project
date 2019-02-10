@@ -22,12 +22,12 @@ const GoogleFormTemplate = ({
           <MsgSent>
             <p>
               {FinalSentMsg}
-              <img src={party} alt="heart" /> <img src={heart} alt="" />
+              <img src={party} alt="حفلة" /> <img src={heart} alt="قلب" />
             </p>
 
             <Button
               type="submit"
-              width="100%"
+              width="240px"
               height="2.2rem"
               BGColor="var(--color-primary)"
               BorderRadius="50px"
@@ -36,7 +36,7 @@ const GoogleFormTemplate = ({
               FontWeight="600"
               onClick={FormRedirectState}
             >
-              أقترح مكان آخر
+              اقترح مكان آخر
             </Button>
           </MsgSent>
         )}
@@ -46,13 +46,14 @@ const GoogleFormTemplate = ({
           target="hidden_iframe"
           onSubmit={FormRedirectState}
           visibility={FormRedirect ? `hidden` : `visible`}
+          autoComplete="off"
         >
           <img src={suggest} alt="اقترح مكان" />
           {children}
 
           <Button
             type="submit"
-            width="100%"
+            width="240px"
             height="2.2rem"
             BGColor="var(--color-primary)"
             BorderRadius="50px"
@@ -116,7 +117,7 @@ const MsgSent = styled.div`
   position: absolute;
   z-index: 1000;
   padding-top: 37%;
-  margin-left: 11%;
+  margin-left: 9%;
   img {
     width: 0.9rem;
     margin-right: 4px;

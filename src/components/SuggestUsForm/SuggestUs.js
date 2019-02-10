@@ -8,28 +8,19 @@ export const SuggestCopmonent = ({ FormRedirect, FormRedirectState, inputs, inpu
     FormTitle="اقترح مكان"
     FormDesc="اقترح علينا سواء بفكرة او مكان"
     FinalSentMsg="الله يعطيك العافية على التوصية، لاتحرمنا من توصياتك إذا عرفت مكان جديد"
-    FormActionUrl="https://docs.google.com/forms/u/7/d/e/1FAIpQLSe-y3IuVxc6WjTFYHvR5Fw1_lq9U3uEX9rqhrWC0Onnrv8DPQ/formResponse"
+    // FormActionUrl="https://docs.google.com/forms/u/7/d/e/1FAIpQLSe-y3IuVxc6WjTFYHvR5Fw1_lq9U3uEX9rqhrWC0Onnrv8DPQ/formResponse"
   >
     <Input
-      // value={inputs.name}
-      // stateName="name"
-      // onChange={inputOnChange}
       Forlabel="اسم المكان ( مطعم أو كافيه )"
       name="entry.344522578"
       required={true}
     />
     <Input
-      // value={inputs.city}
-      // stateName="city"
-      // onChange={inputOnChange}
       Forlabel="المدينة"
       name="entry.2081730193"
       required={true}
     />
     <Input
-      // value={inputs.location}
-      // stateName="location"
-      // onChange={inputOnChange}
       Forlabel="رابط مشاركة الموقع ( إن وجد )"
       name="entry.290755335"
     />

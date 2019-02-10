@@ -32,6 +32,7 @@ const ButtonComponent = ({
 
 export const StyledButton = styled.button`
   border: none;
+  margin: auto;
   width: ${props => props.width || "min-content"};
   height: ${props => props.height || "50px"};
   cursor: pointer;
