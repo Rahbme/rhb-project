@@ -531,5 +531,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/GjtdFjLfJJH2'
+  - EnName: Pan Breeza
+    name: بان بريزا
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/VF8KPaucjN32'
 ---
 
