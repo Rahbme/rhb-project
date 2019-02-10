@@ -341,11 +341,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/P175pchued62'
-  - EnName: Cafune
-    name: كافونيه
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/uGCnAhf3mwB2'
   - EnName: The mansion
     name: ذا مانشن
     tags:
@@ -391,16 +386,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Alqalzam'
-  - EnName: Muunnis
-    name: مونيز
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/qResSpAKTTo'
-  - EnName: Bteel
-    name: بتيل
-    tags:
-      - مطعم وكافيه
-    url: 'https://www.google.com/maps/search/Bateel'
   - EnName: Operation Falafel
     name: 'اوبريشن فلافل '
     tags:
@@ -521,15 +506,15 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/jzi3kyTMNLQ2'
-  - EnName: Lavash
-    name: لاڤاش
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/w2KBaLCHgz92'
   - EnName: ilfournaretto
     name: إلفورناريتو
     tags:
       - مطعم
     url: 'https://goo.gl/maps/tdrnNqRjnkQ2'
+  - EnName: Toledo
+    name: طليطلة
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/ML5337LtXGr'
 ---
 
