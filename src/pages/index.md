@@ -536,11 +536,5 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/VF8KPaucjN32'
-  - EnName: reem
-    name: مطعم بروستد ريم
-    tags:
-      - مطعم
-      - كافيه
-    url: 'https://www.fsdf.com'
 ---
 
