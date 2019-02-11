@@ -1,8 +1,6 @@
 import React from "react";
-import { StaticQuery } from "gatsby";
-import { graphql } from "gatsby";
 import styled from "styled-components";
-import Button, { ItemButton } from "../components/Button";
+import Button, { ItemButton } from "./Button";
 import forksAndKnifeAndPlate from "../images/icons/forksAndKnifeAndPlate.png";
 import cafe from "../images/icons/cafe.png";
 import InfiniteScroll from "react-infinite-scroller";
@@ -91,59 +89,38 @@ export const PlacesComponent = ({ list, ChangeCategory, category, AmountOfShownL
 
 class Places extends React.Component {
   render() {
+    const {
+      AmountOfShownList,
+      category,
+      hasMoreItems,
+      searchedItem,
+      ChangeCategory,
+      ShowMoreItem,
+      shuffleArray,
+      places
+    } = this.props;
+    let list = "";
+    if (searchedItem) {
+      list = places.filter(
+        ({ name, EnName }) =>
+          (name && name.replace(/[اأإآ]/g, "ا").includes(searchedItem.trim().replace(/[اأإآ]/g, "ا"))) ||
+          (EnName && EnName.toLowerCase().includes(searchedItem.toLowerCase().trim()))
+      );
+      if (list.length === 0) list = "لم يتم العثور على ماتبحث عنه";
+    } else if (category === "cafes")
+      list = places.filter(({ tags }) => tags.find(tag => tag === "كافيه" || tag === "مطعم وكافيه"));
+    else if (category === "resturants")
+      list = places.filter(({ tags }) => tags.find(tag => tag === "مطعم وكافيه" || tag === "مطعم"));
+
     return (
-      <StaticQuery
-        query={graphql`
-          query placesQuery {
-            markdownRemark(fileAbsolutePath: { regex: "/places/" }) {
-              frontmatter {
-                places {
-                  EnName
-                  name
-                  url
-                  tags
-                }
-              }
-            }
-          }
-        `}
-        render={data => {
-          const { places } = data.markdownRemark.frontmatter;
-
-          const {
-            AmountOfShownList,
-            category,
-            hasMoreItems,
-            searchedItem,
-            ChangeCategory,
-            ShowMoreItem,
-            shuffleArray
-          } = this.props;
-          let list = "";
-          if (searchedItem) {
-            list = places.filter(
-              ({ name, EnName }) =>
-                (name && name.replace(/[اأإآ]/g, "ا").includes(searchedItem.trim().replace(/[اأإآ]/g, "ا"))) ||
-                (EnName && EnName.toLowerCase().includes(searchedItem.toLowerCase().trim()))
-            );
-            if (list.length === 0) list = "لم يتم العثور على ماتبحث عنه";
-          } else if (category === "cafes")
-            list = places.filter(({ tags }) => tags.find(tag => tag === "كافيه" || tag === "مطعم وكافيه"));
-          else if (category === "resturants")
-            list = places.filter(({ tags }) => tags.find(tag => tag === "مطعم وكافيه" || tag === "مطعم"));
-
-          return (
-            <PlacesComponent
-              searchedItem={searchedItem}
-              category={category}
-              list={Array.isArray(list) ? shuffleArray(list) : list}
-              hasMoreItems={hasMoreItems}
-              ShowMoreItem={ShowMoreItem}
-              AmountOfShownList={AmountOfShownList}
-              ChangeCategory={ChangeCategory}
-            />
-          );
-        }}
+      <PlacesComponent
+        searchedItem={searchedItem}
+        category={category}
+        list={Array.isArray(list) ? shuffleArray(list) : list}
+        hasMoreItems={hasMoreItems}
+        ShowMoreItem={ShowMoreItem}
+        AmountOfShownList={AmountOfShownList}
+        ChangeCategory={ChangeCategory}
       />
     );
   }

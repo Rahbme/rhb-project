@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Places from "../templates/places-post";
+import Places from "./places";
 import googleMap from "../images/icons/googleMap.png";
 const Container = styled.div`
   grid-area: content;
@@ -22,7 +22,8 @@ const IndexPage = ({
   hasMoreItems,
   randomNumber,
   ShowMoreItem,
-  shuffleArray
+  shuffleArray,
+  places
 }) => (
   <Container>
     <div css={"margin: 32px auto;"}>
@@ -42,6 +43,7 @@ const IndexPage = ({
       randomNumber={randomNumber}
       ShowMoreItem={ShowMoreItem}
       shuffleArray={shuffleArray}
+      places={places}
     />
   </Container>
 );

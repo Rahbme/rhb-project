@@ -4,15 +4,15 @@ import styled, { css } from "styled-components";
 const ButtonComponent = ({
   children,
   onClick,
-  FontFamily,
+  fontFamily,
   width,
   BGColor,
   isIcon = false,
   BorderRadius,
   category,
-  FontSize,
+  fontSize,
   height,
-  FontWeight
+  fontWeight
 }) => (
   <StyledButton
     onClick={onClick}
@@ -22,9 +22,9 @@ const ButtonComponent = ({
     BorderRadius={BorderRadius}
     category={category}
     height={height}
-    FontFamily={FontFamily}
-    FontSize={FontSize}
-    FontWeight={FontWeight}
+    fontFamily={fontFamily}
+    fontSize={fontSize}
+    fontWeight={fontWeight}
   >
     {children}
   </StyledButton>
@@ -39,9 +39,9 @@ export const StyledButton = styled.button`
   background-color: ${props => props.BGColor || "inherit"};
   margin-top: 3px;
   border-radius: ${props => props.BorderRadius && props.BorderRadius};
-  font-family: ${props => props.FontFamily && props.FontFamily};
-  font-size: ${props => props.FontSize && props.FontSize};
-  font-weight: ${props => props.FontWeight && props.FontWeight};
+  font-family: ${props => props.fontFamily && props.fontFamily};
+  font-size: ${props => props.fontSize && props.fontSize};
+  font-weight: ${props => props.fontWeight && props.fontWeight};
 
   ${props =>
     props.category &&

@@ -31,9 +31,9 @@ const GoogleFormTemplate = ({
               height="2.2rem"
               BGColor="var(--color-primary)"
               BorderRadius="50px"
-              FontFamily="Dubai-Light,sans-serif"
-              FontSize="0.8rem"
-              FontWeight="600"
+              fontFamily="Dubai-Light,sans-serif"
+              fontSize="0.8rem"
+              fontWeight="600"
               onClick={FormRedirectState}
             >
               اقترح مكان آخر
@@ -57,9 +57,9 @@ const GoogleFormTemplate = ({
             height="2.2rem"
             BGColor="var(--color-primary)"
             BorderRadius="50px"
-            FontFamily="Dubai-Light,sans-serif"
-            FontSize="0.8rem"
-            FontWeight="600"
+            fontFamily="Dubai-Light,sans-serif"
+            fontSize="0.8rem"
+            fontWeight="600"
           >
             إرسال{" "}
           </Button>

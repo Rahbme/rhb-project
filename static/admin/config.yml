@@ -14,11 +14,11 @@ collections:
     editor:
       preview: false
     files:
-      - file: "src/pages/places/index.md"
+      - file: "src/pages/index.md"
         label: "الأماكن"
         name: "places"
         fields:
-          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "places-post" }
+          - { label: "Template Key", name: "templateKey", widget: "hidden", default: "home-page" }
           - label: "الأماكن"
             name: "places"
             widget: "list"

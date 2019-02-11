@@ -5,6 +5,7 @@ import MainContent from "../components/MainContent";
 import SEO from "../components/SEO";
 import GlobalStyles from "../components/GlobalStyles";
 import { Normalize } from "styled-normalize";
+import { graphql } from "gatsby";
 
 const Container = styled.div`
   display: grid;
@@ -56,6 +57,7 @@ class Layout extends React.Component {
 
   render() {
     const { search, category, AmountOfShownList, hasMoreItems, randomNumber } = this.state;
+    const { places } = this.props.data.markdownRemark.frontmatter;
     return (
       <>
         <Normalize />
@@ -77,11 +79,25 @@ class Layout extends React.Component {
             randomNumber={randomNumber}
             ShowMoreItem={this.ShowMoreItem}
             shuffleArray={this.shuffleArray}
+            places={places}
           />
         </Container>
       </>
     );
   }
 }
-
+export const query = graphql`
+  query {
+    markdownRemark(fileAbsolutePath: { regex: "/" }) {
+      frontmatter {
+        places {
+          EnName
+          name
+          url
+          tags
+        }
+      }
+    }
+  }
+`;
 export default Layout;
