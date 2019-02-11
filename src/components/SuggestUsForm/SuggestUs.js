@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Input from "../Input";
 import GoogleFormTemplate from "./GoogleFormTemplate";
-export const SuggestCopmonent = ({ FormRedirect, FormRedirectState, inputs, inputOnChange }) => (
+export const SuggestCopmonent = ({ FormRedirect, FormRedirectState }) => (
   <GoogleFormTemplate
     FormRedirect={FormRedirect}
     FormRedirectState={FormRedirectState}

@@ -80,7 +80,13 @@ module.exports = {
     },
     `gatsby-plugin-catch-links`,
     "gatsby-plugin-styled-components",
-    "gatsby-plugin-sitemap",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/some-other-sitemap.xml`,
+        exclude: [`/places/`]
+      }
+    },
     "gatsby-plugin-offline",
     "gatsby-plugin-netlify" // make sure to keep it last in the array
   ]
