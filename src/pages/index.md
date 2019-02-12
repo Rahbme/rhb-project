@@ -536,5 +536,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/7yJkaD8U4AQ2'
+  - EnName: Teti cafe
+    name: تي تي كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/KFrhGXpQ11u'
 ---
 
