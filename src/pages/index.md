@@ -526,5 +526,15 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/VF8KPaucjN32'
+  - EnName: Coffee Alliance
+    name: تحالف القهوة
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/tJAoD9z2y2r'
+  - EnName: The grill nation
+    name: ذا جريل نيشن
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/7yJkaD8U4AQ2'
 ---
 
