@@ -51,11 +51,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/كوبر+شندني'
-  - EnName: Piatto
-    name: بياتو
-    tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Piatto'
   - EnName: Avocado
     name: أفوكادو
     tags:
