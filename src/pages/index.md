@@ -331,11 +331,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/Gkkyo2pX1VF2'
-  - EnName: Tea club
-    name: 'نادي الشاي '
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/Fu1grdKg2Q32'
   - EnName: Mom's flavour
     name: 'مذاق أمي '
     tags:
