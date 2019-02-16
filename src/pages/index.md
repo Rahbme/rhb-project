@@ -556,5 +556,10 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/12maVAktafn'
+  - EnName: De La Vie
+    name: د لا فيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/s8AbKVHsuCy'
 ---
 
