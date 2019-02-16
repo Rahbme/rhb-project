@@ -336,11 +336,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/BWEhkwxXL762'
-  - EnName: Ekleel Resturant
-    name: اكليل لبنان
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/w7Fam215Cd42'
   - EnName: Maison mathis
     name: ميزون ماتيس
     tags:
