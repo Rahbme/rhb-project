@@ -536,5 +536,25 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/KFrhGXpQ11u'
+  - EnName: Alssaraya
+    name: السرايا التركي
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/tFDcqSvEbKs'
+  - EnName: Mikado House
+    name: بيت ميكادو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/pBJEvRS3bt52'
+  - EnName: 'Topkapi '
+    name: طوبكابي
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/vxdPh8KD8Jt'
+  - EnName: Caffe Bene
+    name: كوفي بيني
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/12maVAktafn'
 ---
 
