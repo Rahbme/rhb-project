@@ -561,5 +561,20 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/s8AbKVHsuCy'
+  - EnName: Dose
+    name: دوز
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/K15iE1PNWUy'
+  - EnName: Madeleine
+    name: مادلين
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/QtKdhCZnWxy'
+  - EnName: give me five
+    name: قيف مي فايف
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/jhAk6RVcHA82'
 ---
 
