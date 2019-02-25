@@ -561,11 +561,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/s8AbKVHsuCy'
-  - EnName: Dose
-    name: دوز
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/K15iE1PNWUy'
   - EnName: Madeleine
     name: مادلين
     tags:
@@ -576,5 +571,25 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/jhAk6RVcHA82'
+  - EnName: La casa italiana
+    name: البيت الإيطالي
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/18cUUwApnPs'
+  - EnName: Smokey Beards Q
+    name: سموكي بيردز كيو
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/299kyp6oBQm'
+  - EnName: Zaatar W Zeit
+    name: زعتر وزيت
+    tags:
+      - مطعم
+    url: 'https://www.google.com/maps/search/زعتر+وزيت'
+  - EnName: grill session
+    name: مطعم جلسة شواء
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/SRL8hu5Y6QG2'
 ---
 
