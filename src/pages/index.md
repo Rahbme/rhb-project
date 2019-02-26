@@ -551,11 +551,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/vxdPh8KD8Jt'
-  - EnName: Caffe Bene
-    name: كوفي بيني
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/12maVAktafn'
   - EnName: De La Vie
     name: د لا فيه
     tags:
