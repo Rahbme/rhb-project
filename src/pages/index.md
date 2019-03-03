@@ -326,11 +326,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/P175pchued62'
-  - EnName: The mansion
-    name: ذا مانشن
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/Gkkyo2pX1VF2'
   - EnName: Mom's flavour
     name: 'مذاق أمي '
     tags:
