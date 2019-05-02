@@ -31,11 +31,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/TD6waX7rFSE2'
-  - EnName: Burj Al Hamam Bistro
-    name: 'برج الحمام بيسترو '
-    tags:
-      - مطعم
-    url: 'https://www.google.com/maps/search/Burj+Al+Hamam'
   - EnName: Azkadenya
     name: أزكدنيا
     tags:
@@ -191,11 +186,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Outback+Steakhouse'
-  - EnName: Spectra Cafe
-    name: أطياف الكيف
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/ATUXokeFT2w'
   - EnName: Fairouz garden
     name: فيروز قاردن
     tags:
@@ -366,11 +356,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/FCFmWEnQRRR2'
-  - EnName: ChesseCake Royale
-    name: 'رويال تشيز كيك لاونج '
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/8Eq12JSRCKM2'
   - EnName: Dip n Dip
     name: ديب إن ديب
     tags:
