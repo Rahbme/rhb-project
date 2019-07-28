@@ -386,11 +386,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/CyHGKpgvqEn'
-  - EnName: Mothhelah
-    name: مذهلة كافيه
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/eXTV9kFgZpS2'
   - EnName: Rasam coffee
     name: قهوة رسم
     tags:
