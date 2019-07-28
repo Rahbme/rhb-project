@@ -251,11 +251,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/CXgbmKiCbio'
-  - EnName: Le Chateau
-    name: لي شاتو
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/Zm2NcWssSCo'
   - EnName: Brand Coffee
     name: براند كافيه
     tags:
