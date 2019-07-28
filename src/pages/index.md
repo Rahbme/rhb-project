@@ -521,6 +521,5 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/SRL8hu5Y6QG2'
-  - {}
 ---
 
