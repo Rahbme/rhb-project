@@ -306,11 +306,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/BWEhkwxXL762'
-  - EnName: Cake me out
-    name: كيك مي آوت
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/zi2G5GSomvj'
   - EnName: Recipe cafe
     name: ريسيبي كافيه
     tags:
