@@ -526,9 +526,10 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/yiaSqjbbi3HiZZws6'
-  - EnName: ''
-    name: ''
-    tags: []
-    url: ''
+  - EnName: TSC Signature
+    name: تي أس سي سجنتشر
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/m5xN6gMn5ZQ2TGGGA'
 ---
 
