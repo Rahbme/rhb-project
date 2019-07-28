@@ -541,5 +541,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/W93et7oM99UYpJHs8'
+  - EnName: Wake cup
+    name: ويك كب
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/qYGAGqPM3hqYLjfo7'
 ---
 
