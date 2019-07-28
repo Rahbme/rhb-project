@@ -381,11 +381,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/R6YpCsTwQyJ2'
-  - EnName: 'November Coffee '
-    name: 'نوفمبر كوفي '
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/CyHGKpgvqEn'
   - EnName: Rasam coffee
     name: قهوة رسم
     tags:
