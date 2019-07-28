@@ -26,11 +26,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/5fKcBRE3XPN2'
-  - EnName: Albalad
-    name: البلد
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/TD6waX7rFSE2'
   - EnName: Azkadenya
     name: أزكدنيا
     tags:
