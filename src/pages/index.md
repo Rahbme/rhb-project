@@ -26,11 +26,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/5fKcBRE3XPN2'
-  - EnName: Azkadenya
-    name: أزكدنيا
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/NLnzGrZ2LfG2'
   - EnName: Kosibasi
     name: كوشي باشي
     tags:
