@@ -526,6 +526,10 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/yiaSqjbbi3HiZZws6'
-  - {}
+  - EnName: Victorian Cafe & Lounge
+    name: ' فكتوريان'
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/zN43eB9PEBDsq4oZ6'
 ---
 
