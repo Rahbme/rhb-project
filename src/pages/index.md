@@ -536,5 +536,10 @@ places:
     tags:
       - مطعم
     url: 'https://g.page/Menara_sa?share'
+  - EnName: TAJ Castle
+    name: 'قلعة التاج '
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/W93et7oM99UYpJHs8'
 ---
 
