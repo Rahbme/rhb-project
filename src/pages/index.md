@@ -331,11 +331,6 @@ places:
     tags:
       - مطعم
     url: 'https://www.google.com/maps/search/Alqalzam'
-  - EnName: Operation Falafel
-    name: 'اوبريشن فلافل '
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/4a1KqkEJc9Q2'
   - EnName: Dip lab cafe
     name: ديب لاب كافيه
     tags:
