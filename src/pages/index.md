@@ -521,6 +521,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/SRL8hu5Y6QG2'
-  - {}
+  - EnName: Uskudar Steak House
+    name: أسكودار ستيك هاوس
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/yiaSqjbbi3HiZZws6'
 ---
 
