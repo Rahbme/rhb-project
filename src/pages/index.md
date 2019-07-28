@@ -531,5 +531,6 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/zN43eB9PEBDsq4oZ6'
+  - {}
 ---
 
