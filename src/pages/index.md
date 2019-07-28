@@ -531,5 +531,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/m5xN6gMn5ZQ2TGGGA'
+  - EnName: menara lounge & restaurant
+    name: 'مينارا المغربي '
+    tags:
+      - مطعم
+    url: 'https://g.page/Menara_sa?share'
 ---
 
