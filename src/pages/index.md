@@ -546,5 +546,10 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/qYGAGqPM3hqYLjfo7'
+  - EnName: ACME
+    name: آكمي
+    tags:
+      - مطعم
+    url: 'https://g.page/ACMERestaurant?share'
 ---
 
