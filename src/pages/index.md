@@ -496,11 +496,6 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/s8AbKVHsuCy'
-  - EnName: Madeleine
-    name: مادلين
-    tags:
-      - كافيه
-    url: 'https://goo.gl/maps/QtKdhCZnWxy'
   - EnName: give me five
     name: قيف مي فايف
     tags:
