@@ -306,11 +306,6 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/BWEhkwxXL762'
-  - EnName: Maison mathis
-    name: ميزون ماتيس
-    tags:
-      - مطعم
-    url: 'https://goo.gl/maps/Wi43HzCmk5T2'
   - EnName: Cake me out
     name: كيك مي آوت
     tags:
