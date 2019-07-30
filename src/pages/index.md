@@ -551,5 +551,10 @@ places:
     tags:
       - مطعم
     url: 'https://g.page/ACMERestaurant?share'
+  - EnName: ACUS
+    name: اقوس
+    tags:
+      - مطعم
+    url: 'https://goo.gl/maps/9vJQ3ASsz56LFTFr6'
 ---
 
