@@ -566,5 +566,10 @@ places:
     tags:
       - كافيه
     url: 'https://goo.gl/maps/wL5YMCt35yrMUUnL7'
+  - EnName: Alma cafe
+    name: 'ألمى كافيه '
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/mqCP6w9Y2JBehmAc6'
 ---
 
