@@ -561,6 +561,10 @@ places:
     tags:
       - مطعم وكافيه
     url: 'https://goo.gl/maps/1Y74fLJKkPnjFP5r6'
-  - {}
+  - EnName: Kahve Deryasi
+    name: ديرياسي كافيه
+    tags:
+      - كافيه
+    url: 'https://goo.gl/maps/wL5YMCt35yrMUUnL7'
 ---
 
