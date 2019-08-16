@@ -556,5 +556,10 @@ places:
     tags:
       - مطعم
     url: 'https://goo.gl/maps/9vJQ3ASsz56LFTFr6'
+  - EnName: Ritual restaurant & Longe
+    name: ريتشوال
+    tags:
+      - مطعم وكافيه
+    url: 'https://goo.gl/maps/1Y74fLJKkPnjFP5r6'
 ---
 
